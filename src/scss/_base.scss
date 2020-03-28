@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: $white;
+  background: $red;
+  margin: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  background: radial-gradient(circle at 36% 30px, $red-light 0, $red 28%);
+
+  @media (min-width: 480px) {
+    background: radial-gradient(circle at 45% 40px, $red-light, $red 34%);
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  border-bottom: 2px dotted $white;
+  padding: 0 4px 2px;
+}

@@ -1,0 +1,48 @@
+.header {
+  text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: linear-gradient(90deg, #a62825, #cc423f, #a62825);
+    box-shadow: 0 8px 12px $red-dark;
+  }
+}
+
+.header__title {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.header__image {
+  width: 160px;
+  height: auto;
+
+  @media (min-width: 480px) {
+    width: 200px;
+  }
+}
+
+.header__subtitle {
+  font-size: 22px;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header__stoerer {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  padding: 4px 12px;
+  border: 2px solid $white;
+  border-radius: 4px;
+  transform: rotate(24deg) scale(0.7);
+
+  @media (min-width: 480px) {
+    transform: rotate(24deg) scale(1);
+    top: 48px;
+    right: 30%;
+  }
+}

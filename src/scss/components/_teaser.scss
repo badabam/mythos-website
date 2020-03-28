@@ -1,0 +1,32 @@
+.teaser {
+  border: 2px solid $white;
+  box-shadow: 0 8px 16px $red-dark;
+  margin: 48px 0;
+  background: $red;
+}
+
+.teaser__heading {
+  padding: 12px;
+  margin: 0;
+  font-weight: bold;
+  background: $white;
+  color: $red;
+}
+
+.teaser__content {
+  padding: 12px;
+  margin: 0;
+}
+
+.teaser__button {
+  display: block;
+  margin: 24px 0;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 12px $red-dark;
+  padding: 12px;
+  background: linear-gradient($white, #ccc);
+  border-radius: 6px;
+  color: $red;
+}

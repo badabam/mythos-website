@@ -18,8 +18,8 @@
   },
   "husky": {
     "hooks": {
-      "xpre-commit": "lint-staged",
-      "xpre-push": "npm run lint"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint"
     }
   },
   "lint-staged": {

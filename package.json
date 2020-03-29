@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
+    "prebuild": "npm run clean",
     "build": "parcel build src/index.html",
+    "clean": "del-cli dist",
     "prettier": "prettier --write src/**/*.{scss,html}",
     "htmlhint": "htmlhint src/**/*.html",
     "stylelint": "stylelint src/scss",
@@ -37,6 +39,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@namics/stylelint-bem": "6.3.0",
+    "del-cli": "3.0.0",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.10.1",
     "eslint-plugin-prettier": "3.1.2",

@@ -9,17 +9,18 @@
 }
 
 .content__salutation {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .content__title {
-  font-size: 22px;
-  margin: 20px -20px 72px;
+  font-size: 21px;
+  margin: 20px 0 72px;
   padding: 12px 0;
   text-align: center;
-  background: $white;
-  color: $red;
+  background: $red;
+  color: $white;
   box-shadow: 0 4px 12px $red-dark;
+  border: 2px solid $white;
 
   @media (min-width: 480px) {
     font-size: 32px;

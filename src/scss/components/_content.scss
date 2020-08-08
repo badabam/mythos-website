@@ -13,9 +13,11 @@
 }
 
 .content__title {
-  font-size: 21px;
-  margin: 20px 0 72px;
-  padding: 12px 0;
+  font-size: 1.2em !important;
+  display: block;
+  margin: 40px auto;
+  width: max-content;
+  padding: 20px;
   text-align: center;
   background: $red;
   color: $white;
